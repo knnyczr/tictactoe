@@ -1,0 +1,77 @@
+*{
+	margin: 0 ; 
+	padding: 0; 
+}
+#wrapper{
+	width:100vw; 
+	
+}
+#bttn{
+	font-family: 'Nunito', sans-serif;
+	color: white; 
+	width: 150px; 
+	height: 25px; 
+	margin: 50px auto; 
+	border-radius: 20px; 
+	background: #E71D36; 
+	text-align: center; 
+	padding-top: 5px; 
+	font-weight: 700;
+	box-shadow: 5px 5px 18px black ;
+}
+#bttn:hover{
+	transition: .5s;		
+	box-shadow: 5px 2px 9px #888888; 
+}
+#game{
+	display: grid;
+	grid-template-columns: 1fr 20px 1fr 20px 1fr;
+	margin: 0 auto;
+	width: 700px; 
+}
+#game2{
+	display: grid;
+	grid-template-columns: 1fr 20px 1fr 20px 1fr;
+	margin: 0 auto;
+	width: 700px; 
+}
+#game3{
+	display: grid;
+	grid-template-columns: 1fr 20px 1fr 20px 1fr;
+	margin: 0 auto;
+	width: 700px; 
+}
+h2{
+	position: absolute; 
+	font-family: 'Nunito', sans-serif;
+	top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 90px;
+	font-weight: 900;
+}
+.hr{
+	border-bottom: solid black;
+	width:600px;
+	margin: 10px auto 10px;
+}
+.vertical{
+	border-left: solid black;
+	height: 200px; 
+	display:inline;
+}
+.space{
+	width: 200px;
+	height: 200px; 
+/*	background: white; */
+	border-radius: 100%;
+	position: relative; 
+	text-align: center;
+}
+
+.exes{
+	background: #247BA0;
+}
+.os{
+	background: #F25F5C;
+}
