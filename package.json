@@ -6,10 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ga-wdi-exercises/tic_tac_toe.git"
-  },
   "keywords": [
     "javascript",
     "oop",
@@ -18,14 +14,7 @@
     "tic tac toe",
     "game"
   ],
-  "author": "Micah Rich",
-  "contributors": [
-    "Jason Seminara <js@ga.co>"
-  ],
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ga-wdi-exercises/tic_tac_toe/issues"
-  },
   "ga_co": {
     "duration": "8",
     "type": "lab"
